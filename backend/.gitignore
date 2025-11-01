@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory (e.g. Jest)
+coverage/
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+# Temporary files
+tmp/
+temp/
+
+# Docker related
+docker-compose.override.yml
+
+# Redis dump files
+dump.rdb
+
+# TypeScript
+*.tsbuildinfo
