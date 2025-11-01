@@ -2,7 +2,7 @@ import cron from "node-cron";
 import { fetchFeed } from "../services/feedFetcher.js";
 import { normalizeFeed } from "../services/jobNormalizer.js";
 import importQueue from "../queues/importQueue.js";
-import ImportLog from "../models/ImportLog.js";
+import ImportLog from "../models/importLog.js";
 
 const FEEDS = [
   "https://jobicy.com/?feed=job_feed",

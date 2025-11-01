@@ -1,7 +1,7 @@
 import { fetchFeed } from "../services/feedFetcher.js";
 import { normalizeFeed } from "../services/jobNormalizer.js";
 import importQueue from "../queues/importQueue.js";
-import ImportLog from "../models/ImportLog.js";
+import ImportLog from "../models/importLog.js";
 
 export async function runImportForFeed(req, res) {
   const { feedUrl } = req.body;

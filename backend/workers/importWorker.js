@@ -3,7 +3,7 @@ dotenv.config();
 import { importQueue } from "../queues/importQueue.js";
 import mongoose from "mongoose";
 import JobModel from "../models/Job.js";
-import ImportLog from "../models/ImportLog.js";
+import ImportLog from "../models/importLog.js";
 import { connectDB } from "../config/db.js";
 
 const CONCURRENCY = parseInt(process.env.QUEUE_CONCURRENCY || "3");

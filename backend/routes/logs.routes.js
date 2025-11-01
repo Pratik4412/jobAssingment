@@ -1,5 +1,5 @@
 import express from "express";
-import ImportLog from "../models/ImportLog.js";
+import ImportLog from "../models/importLog.js";
 const router = express.Router();
 
 router.get("/import-logs", async (req, res) => {
